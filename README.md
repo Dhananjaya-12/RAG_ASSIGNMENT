@@ -192,6 +192,3 @@ python main.py benchmark
 - Semantically similar queries (cosine sim ≥ 0.92) return cached results instantly.
 - LRU eviction with hit-count boosting for popular queries.
 
-## License
-
-MIT License
