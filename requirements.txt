@@ -1,0 +1,25 @@
+# Adaptive RAG Inference System - Dependencies
+
+# Embeddings & Re-ranking
+sentence-transformers>=2.2.0
+
+# Vector Store
+faiss-cpu>=1.7.4
+
+# BM25 Keyword Search
+rank_bm25>=0.2.2
+
+# LLM Generation
+google-generativeai>=0.8.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Numerical Computing
+numpy>=1.24.0
+
+# Rich CLI Output
+rich>=13.0.0
+
+# Utilities
+nltk>=3.8.0
