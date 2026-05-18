@@ -1,0 +1,21 @@
+Data Structures and Algorithms: Core Concepts
+
+Data structures and algorithms form the foundation of computer science and software engineering. They determine how data is organized, stored, and manipulated, and directly impact the efficiency and performance of software applications.
+
+Arrays and Linked Lists
+Arrays store elements in contiguous memory locations, providing O(1) random access but O(n) insertion and deletion. Dynamic arrays (like Python lists or Java ArrayLists) automatically resize when capacity is exceeded, typically doubling in size. Linked lists store elements in nodes connected by pointers, offering O(1) insertion and deletion at known positions but O(n) access time. Doubly linked lists have pointers in both directions, enabling bidirectional traversal. The choice between arrays and linked lists depends on the access pattern — arrays for random access, linked lists for frequent insertions/deletions.
+
+Trees and Graphs
+Binary Search Trees (BSTs) maintain sorted order with O(log n) average-case search, insertion, and deletion. Self-balancing trees like AVL trees and Red-Black trees guarantee O(log n) operations by automatically maintaining balance. B-trees and B+ trees are optimized for disk-based storage systems and databases. Heaps are complete binary trees that support efficient priority queue operations. Graphs represent relationships between entities and can be represented using adjacency matrices or adjacency lists. Graph algorithms like BFS, DFS, Dijkstra's, and A* are fundamental for pathfinding and network analysis.
+
+Hash Tables
+Hash tables provide near-constant time O(1) average-case operations for insertion, deletion, and lookup. They work by mapping keys to array indices using a hash function. Collision resolution strategies include chaining (using linked lists at each index) and open addressing (probing for the next available slot). The load factor (ratio of elements to table size) affects performance — too high leads to many collisions, too low wastes memory. Python dictionaries and Java HashMaps are widely-used hash table implementations.
+
+Sorting Algorithms
+Comparison-based sorting algorithms include QuickSort (average O(n log n), in-place), MergeSort (guaranteed O(n log n), stable but requires extra space), and HeapSort (O(n log n), in-place). Non-comparison sorts like Counting Sort, Radix Sort, and Bucket Sort can achieve O(n) time for specific input types. TimSort, used in Python and Java, is a hybrid algorithm combining MergeSort and InsertionSort, optimized for real-world data that often contains partially ordered sequences.
+
+Dynamic Programming
+Dynamic programming solves problems by breaking them into overlapping subproblems and storing results to avoid redundant computation. The two approaches are top-down (memoization) and bottom-up (tabulation). Classic dynamic programming problems include the Fibonacci sequence, knapsack problem, longest common subsequence, and shortest path problems. The key to identifying DP problems is recognizing optimal substructure (optimal solution contains optimal solutions to subproblems) and overlapping subproblems.
+
+Algorithm Complexity Analysis
+Big-O notation describes the upper bound of an algorithm's time or space complexity as input size grows. Common complexity classes include O(1) constant, O(log n) logarithmic, O(n) linear, O(n log n) linearithmic, O(n²) quadratic, and O(2ⁿ) exponential. Space complexity measures the memory required by an algorithm. Amortized analysis considers the average cost of operations over a sequence, useful for data structures like dynamic arrays where occasional expensive operations (resizing) are offset by many cheap operations.

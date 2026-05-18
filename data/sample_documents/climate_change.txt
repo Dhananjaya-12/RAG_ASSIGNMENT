@@ -1,0 +1,18 @@
+Climate Change: Science, Impact, and Solutions
+
+Climate change refers to long-term shifts in global temperatures and weather patterns. While climate change is a natural phenomenon, human activities since the Industrial Revolution have been the primary driver of the accelerated warming observed since the mid-20th century. The burning of fossil fuels like coal, oil, and natural gas releases greenhouse gases into the atmosphere, trapping heat and causing global temperatures to rise.
+
+The Greenhouse Effect
+The greenhouse effect is a natural process that warms the Earth's surface. When the Sun's energy reaches the Earth, some of it is reflected back to space and some is absorbed, warming the planet. The Earth then radiates heat back towards space. Greenhouse gases in the atmosphere — including carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), and fluorinated gases — trap some of this outgoing energy, keeping the Earth warm enough to sustain life. However, human activities have significantly increased the concentration of these gases, enhancing the greenhouse effect and causing unprecedented warming.
+
+Observed Changes
+Global average surface temperature has increased by approximately 1.1 degrees Celsius since the pre-industrial era. Sea levels have risen about 20 centimeters since 1901, with the rate of rise accelerating in recent decades. Arctic sea ice has declined by about 13% per decade since 1979. Extreme weather events — including heat waves, droughts, wildfires, and intense hurricanes — have become more frequent and severe. Ocean acidification, caused by the absorption of excess CO2, threatens marine ecosystems, particularly coral reefs and shellfish.
+
+Impact on Ecosystems and Society
+Climate change affects virtually every aspect of life on Earth. Shifting temperature and precipitation patterns alter agricultural productivity, threatening food security for billions of people. Rising sea levels put coastal communities and small island nations at risk of flooding and displacement. Changes in habitat conditions force species to migrate, adapt, or face extinction. The World Health Organization estimates that climate change will cause approximately 250,000 additional deaths per year between 2030 and 2050 from malnutrition, malaria, diarrhea, and heat stress.
+
+Mitigation Strategies
+Addressing climate change requires both mitigation (reducing emissions) and adaptation (adjusting to impacts). Key mitigation strategies include transitioning from fossil fuels to renewable energy sources like solar, wind, and hydroelectric power. Improving energy efficiency in buildings, transportation, and industry reduces overall energy demand. Carbon capture and storage (CCS) technologies aim to capture CO2 emissions from power plants and industrial processes. Nature-based solutions, such as reforestation and wetland preservation, enhance natural carbon sinks. International agreements like the Paris Agreement set frameworks for global cooperation in reducing emissions.
+
+Renewable Energy Technologies
+Solar photovoltaic technology converts sunlight directly into electricity, and costs have dropped by over 85% since 2010. Wind energy, both onshore and offshore, is now one of the cheapest sources of new electricity generation in many regions. Battery storage technologies are critical for managing the intermittent nature of solar and wind power. Hydrogen fuel, produced using renewable electricity, offers a promising solution for hard-to-decarbonize sectors like heavy industry and long-distance transport.

@@ -1,0 +1,18 @@
+Computer Networks and the Internet
+
+Computer networking is the practice of connecting computers and devices to share data and resources. The Internet, the world's largest computer network, connects billions of devices globally and forms the backbone of modern communication, commerce, and information sharing.
+
+The OSI Model
+The Open Systems Interconnection (OSI) model is a conceptual framework that describes network communication in seven layers. The Physical layer deals with raw bit transmission over physical media. The Data Link layer handles framing and error detection (e.g., Ethernet, Wi-Fi). The Network layer manages logical addressing and routing (IP). The Transport layer provides end-to-end communication (TCP, UDP). The Session layer manages connections between applications. The Presentation layer handles data formatting and encryption. The Application layer provides network services to end users (HTTP, FTP, SMTP, DNS).
+
+TCP/IP Protocol Suite
+The TCP/IP protocol suite is the foundation of the Internet. IP (Internet Protocol) handles addressing and routing of packets. IPv4 uses 32-bit addresses (about 4.3 billion unique addresses), while IPv6 uses 128-bit addresses to solve address exhaustion. TCP (Transmission Control Protocol) provides reliable, ordered delivery with flow control and congestion control. UDP (User Datagram Protocol) offers faster, connectionless communication without reliability guarantees, suitable for real-time applications like video streaming and gaming. DNS (Domain Name System) translates human-readable domain names to IP addresses.
+
+Web Technologies
+HTTP (Hypertext Transfer Protocol) is the foundation of web communication. HTTP/1.1 uses persistent connections and pipelining. HTTP/2 introduced multiplexing, header compression, and server push. HTTP/3 uses QUIC (based on UDP) for faster connections. HTTPS adds TLS encryption for secure communication. REST APIs use HTTP methods (GET, POST, PUT, DELETE) for CRUD operations. WebSocket provides full-duplex communication for real-time applications. Content Delivery Networks (CDNs) cache content at edge locations globally to reduce latency.
+
+Network Security
+Network security protects data in transit and at rest. Firewalls filter network traffic based on predefined rules. Virtual Private Networks (VPNs) create encrypted tunnels for secure remote access. Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) monitor and block malicious activity. SSL/TLS certificates enable encrypted HTTPS connections. Common attack vectors include DDoS attacks, man-in-the-middle attacks, and SQL injection. Zero-trust security models verify every access request regardless of network location.
+
+Cloud Computing and Networking
+Cloud computing delivers computing services over the Internet. Infrastructure as a Service (IaaS) provides virtual machines and storage (e.g., AWS EC2). Platform as a Service (PaaS) offers development platforms (e.g., Google App Engine). Software as a Service (SaaS) delivers applications via the web (e.g., Gmail). Containerization (Docker) and orchestration (Kubernetes) enable scalable microservices architectures. Serverless computing (AWS Lambda) runs code without managing servers, scaling automatically based on demand.

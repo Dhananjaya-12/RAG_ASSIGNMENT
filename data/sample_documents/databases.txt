@@ -1,0 +1,18 @@
+Database Systems: Principles and Practice
+
+Database systems are software applications designed to store, manage, and retrieve structured data efficiently. They are fundamental to virtually all modern applications, from web services to enterprise systems.
+
+Relational Databases
+Relational databases organize data into tables (relations) with rows (tuples) and columns (attributes). SQL (Structured Query Language) is the standard language for querying and manipulating relational data. Key concepts include primary keys (uniquely identifying rows), foreign keys (establishing relationships between tables), and normalization (organizing data to reduce redundancy). ACID properties — Atomicity, Consistency, Isolation, Durability — ensure reliable transaction processing. Popular relational databases include PostgreSQL, MySQL, Oracle, and SQL Server.
+
+SQL Fundamentals
+SQL provides commands for data definition (CREATE, ALTER, DROP), data manipulation (SELECT, INSERT, UPDATE, DELETE), and data control (GRANT, REVOKE). JOINs combine data from multiple tables — INNER JOIN returns matching rows, LEFT JOIN returns all rows from the left table, and FULL OUTER JOIN returns all rows from both tables. Aggregate functions (COUNT, SUM, AVG, MIN, MAX) summarize data. Subqueries and Common Table Expressions (CTEs) enable complex queries. Indexes improve query performance by creating sorted data structures for fast lookup.
+
+NoSQL Databases
+NoSQL databases provide alternatives to relational models for specific use cases. Document databases (MongoDB, CouchDB) store data as flexible JSON-like documents, ideal for semi-structured data. Key-value stores (Redis, DynamoDB) offer simple but fast lookups, perfect for caching and session management. Column-family databases (Cassandra, HBase) optimize for analytical queries on large datasets. Graph databases (Neo4j, Amazon Neptune) excel at modeling and querying complex relationships between entities.
+
+Database Indexing and Optimization
+Indexing is crucial for database performance. B-tree indexes support range queries and equality lookups efficiently. Hash indexes provide O(1) lookups but don't support range queries. Composite indexes cover multiple columns. Full-text indexes enable text search capabilities. Query optimization involves analyzing execution plans, choosing appropriate indexes, denormalization for read-heavy workloads, and partitioning large tables. Connection pooling and caching reduce database load.
+
+Distributed Databases
+Distributed databases span multiple nodes across a network. The CAP theorem states that a distributed system can provide at most two of three guarantees: Consistency, Availability, and Partition tolerance. Sharding distributes data across nodes using a partition key. Replication copies data across nodes for availability and fault tolerance. Consensus algorithms like Raft and Paxos ensure agreement among distributed nodes. NewSQL databases like Google Spanner and CockroachDB aim to provide both SQL capabilities and horizontal scalability.

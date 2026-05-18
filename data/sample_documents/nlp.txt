@@ -1,0 +1,21 @@
+Natural Language Processing: Techniques and Applications
+
+Natural Language Processing (NLP) is a branch of artificial intelligence that deals with the interaction between computers and human language. The goal of NLP is to enable computers to understand, interpret, and generate human language in a way that is both meaningful and useful.
+
+Text Preprocessing
+Text preprocessing is the first step in any NLP pipeline. Tokenization breaks text into individual words or subword units. Lowercasing converts all text to lowercase for consistency. Stop word removal eliminates common words like "the", "is", and "at" that carry little meaning. Stemming and lemmatization reduce words to their root forms — stemming uses heuristic rules (e.g., "running" → "run"), while lemmatization uses vocabulary and morphological analysis. Text normalization handles contractions, abbreviations, and special characters.
+
+Word Embeddings
+Word embeddings are dense vector representations of words that capture semantic meaning. Word2Vec, developed by Google, learns embeddings by predicting context words (Skip-gram) or target words from context (CBOW). GloVe (Global Vectors) combines global matrix factorization with local context window methods. FastText, from Facebook, extends Word2Vec by representing words as bags of character n-grams, enabling better handling of rare and out-of-vocabulary words. These embeddings capture relationships like king - man + woman ≈ queen.
+
+Transformer Architecture
+The transformer architecture, introduced in the 2017 paper "Attention is All You Need," revolutionized NLP. Unlike recurrent neural networks, transformers process all positions in the sequence simultaneously using self-attention mechanisms. Self-attention allows each position to attend to all other positions, capturing long-range dependencies efficiently. The architecture includes multi-head attention (attending to different aspects of the input), positional encoding (injecting sequence order information), and feed-forward layers. Transformers form the basis of modern language models.
+
+Pre-trained Language Models
+BERT (Bidirectional Encoder Representations from Transformers) introduced the concept of pre-training on large text corpora and fine-tuning for specific tasks. BERT uses masked language modeling (predicting masked words) and next sentence prediction for pre-training. GPT (Generative Pre-trained Transformer) uses autoregressive language modeling, predicting the next token in a sequence. T5 (Text-to-Text Transfer Transformer) frames all NLP tasks as text-to-text problems. These models achieve state-of-the-art results on tasks like question answering, sentiment analysis, and named entity recognition.
+
+Applications of NLP
+NLP has numerous practical applications. Machine translation systems like Google Translate use neural machine translation models. Sentiment analysis determines the emotional tone of text, valuable for brand monitoring and market research. Named entity recognition identifies and classifies entities like people, organizations, and locations in text. Chatbots and virtual assistants use NLP for understanding user intent and generating responses. Text summarization automatically condenses long documents while preserving key information. Information retrieval systems use NLP techniques to improve search relevance.
+
+Retrieval-Augmented Generation
+Retrieval-Augmented Generation (RAG) is a paradigm that combines the benefits of retrieval-based and generation-based approaches. Instead of relying solely on a language model's parametric knowledge, RAG first retrieves relevant documents from a knowledge base and then uses them as context for generating accurate, grounded responses. This approach reduces hallucination, allows easy updating of knowledge without retraining, and provides transparency through source attribution. RAG systems typically involve document chunking, embedding generation, vector search, and prompt-augmented generation.
